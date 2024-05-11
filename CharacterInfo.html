@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D Character Creation</title>
+</head>
+<body>
+    <h2>Create Your D&D Character</h2>
+    <form action="emailMe.php" method="POST">
+        <label for="name">Character Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        
+        <label for="race">Race:</label><br>
+        <select id="race" name="race">
+            <option value="human">Human</option>
+            <option value="elf">Elf</option>
+            <option value="dwarf">Dwarf</option>
+        </select><br>
+
+        <label for="class">Class:</label><br>
+        <input type="text" id="class" name="class"><br>
+        
+        <label for="background">Background:</label><br>
+        <textarea id="background" name="background"></textarea><br>
+        
+        <input type="submit" value="Create Character">
+    </form>
+</body>
+</html>
